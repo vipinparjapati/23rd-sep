@@ -1,0 +1,294 @@
+@import url(root.css);
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+.ml-50{
+    margin-left: 50px;
+}
+.prev{
+position: absolute;
+left: 0;
+background: transparent;
+border: none;
+bottom: 50%;
+}
+.next{
+    position: absolute;
+    right: 0;
+    background: transparent;
+border: none;
+bottom: 50%;
+}
+.nav_link::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    transition: all 300ms linear;
+    background-color: black;
+    left: 0;
+    bottom: 0;
+}
+.btn1{
+    padding: 11px 45px;
+    border-radius: 28px;
+    border: none;
+     background: linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%);
+}
+.orange_box:hover{
+    transform: translateY(-20px) !important;
+}
+.circle{
+    height: 87px;
+    width: 87px;
+    border-radius: 50px;
+     background: linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%);
+     transition: all 0.3s linear;
+    
+}
+.card4:hover .circle{
+    background: #FFFFFF ;
+}
+.card4:hover .circle svg path {
+    fill:orange;
+}
+.pb-600{
+    padding-bottom: 600px;
+}
+.position_absolute{
+    position: absolute;
+    top: 27%;
+    right: 7%;
+}
+.m_w_445{
+    max-width: 445px;
+}
+.position-absolute9{
+    top: 60%;
+left: 10%;
+    position: absolute;
+}
+.position-absolute5{
+    top:18%;
+right: 10%;
+    position: absolute;
+}
+.position-absolute4{
+    top:20%;
+right: 7%;
+    position: absolute;
+}
+
+.bb-2{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.max_w_445{
+    max-width: 445px;
+}
+.position_absolute1{
+position:absolute;
+top: 76%;
+    left: 18%;
+}
+.nav_link:hover::after{
+    width: 100%;
+}
+.mw-257{
+    max-width: 257px;
+}
+.visi:hover{
+background-color: white;
+}
+.card4:hover{
+    background: linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%),
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+color: white;
+}
+.card4{
+    box-shadow: 0px 4px 66px 0px #0000000A;
+    padding: 40px 18px;
+    border-radius: 8px;
+    text-align: center;
+    transform: translateY(-0px) !important;
+    transition: all 0.3s linear;
+
+}
+
+.text-gredient {
+    background: linear-gradient(90deg, #fd9b2b 0%, #f14f09 100%), #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;}
+
+
+.bg-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+background-image: url(../image/group47.png);
+}
+.ml-20{
+    margin-left: 30px;
+}
+.mw-484{
+    max-width: 484px;
+}
+.mw-729{
+    max-width:750px;
+}
+.text-orange{
+    color: orangered;
+}
+.ff-work-sans{
+    font-family: 'Work Sans', sans-serif;
+}
+.mw-453{
+    max-width: 453px;
+}
+.bg-clg{
+    background-color: #FFFFFF;
+}
+.bg-colr{
+    background-color: #FFFDFD;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #FFFFFF;
+
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background:
+        linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #FFFFFF !important;
+}
+
+input:focus+.slider {
+    filter: drop-shadow(-2px 1px 6px rgba(0, 0, 0, 0.25));
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.box {
+    border-radius: 10px 10px 0px 0px;
+
+    background: linear-gradient(97deg, #FD9B2B 13.58%, #F14F09 86.99%);
+
+}
+.z-6{
+    z-index: 6 !important;
+}
+.shadow {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.06);
+}
+.mw-375{
+    max-width: 375px;
+}
+.card3 {
+    border-radius: 10px;
+
+    border: 1px solid #E8E8E8;
+    background: linear-gradient(97deg, #FD9B2B 13.58%, #F14F09 86.99%), #FFF;
+}
+.bg-footer{
+    background-image: url(../image/Union.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width:768px) {
+
+    /* menubar */
+    label[for="menubar"] {
+        height: 25px;
+        width: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        z-index: 3;
+        cursor: pointer
+    }
+
+    label[for="menubar"]>span {
+        height: 4px;
+        width: 100%;
+        background-color: lightcoral;
+        border-radius: 3px;
+    }
+
+    ul.mobile-view {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100%;
+        width: 100%;
+        background-color: lightgray;
+        transition: all 250ms linear;
+
+    }
+
+
+    input[type="checkbox"][id="menubar"]:checked+ul.mobile-view {
+        left: 0;
+    }
+
+    /* menubar */
+}
