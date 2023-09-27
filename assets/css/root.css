@@ -94,3 +94,9 @@
     max-width: 60px;
 }
 }
+@media (max-width:992px) {
+    .bg-image{background-size:cover;
+
+    }
+    
+}
