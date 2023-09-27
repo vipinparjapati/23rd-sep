@@ -11,6 +11,7 @@
     --fs-50: 50px;
     --fs-61: 61px;
     --fs-24: 24px;
+    --fs-47: 47px;
 /* fontwait */
     --fw-400:400;
     --fw-600:600;
@@ -46,6 +47,9 @@
 }
 .fs-80{
     font-size: var(--fs-80);
+}
+.fs-47{
+    font-size: var(--fs-47);
 }
 .fs-50{
     font-size: var(--fs-50);
