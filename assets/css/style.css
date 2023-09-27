@@ -13,6 +13,26 @@
     padding-top: 80px;
 
 }
+.position-absolute99{
+    position: absolute;
+    right: 20%;
+    top: 40%;
+}
+.position-absolute88{
+    position: absolute;
+    left: 0;
+    top: 40%;
+}
+.position-absolute880{
+    position: absolute;
+    left: 15%;
+    bottom: 25%;
+}
+.position-absolute990{
+    position: absolute;
+    right: 15%;
+    top: 30%;
+}
 .prev{
 position: absolute;
 left: 70px;
